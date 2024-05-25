@@ -1,3 +1,8 @@
+package ui;
+
+import util.Gradient;
+import util.HeatMap;
+
 import java.awt.GridLayout;
 import javax.swing.JFrame;
 

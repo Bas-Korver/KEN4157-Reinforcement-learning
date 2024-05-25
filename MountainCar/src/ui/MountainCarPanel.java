@@ -1,3 +1,7 @@
+package ui;
+
+import environment.MountainCarEnv;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.Ellipse2D;
@@ -31,7 +35,7 @@ public class MountainCarPanel extends JPanel {
     }
 
     private int getXFor(double val) {
-        return (int) (10+scaleX*(val-MountainCarEnv.MIN_POS));
+        return (int) (10+scaleX*(val- MountainCarEnv.MIN_POS));
     }
     private int getYFor(double val) {
         return (int) (getSize().getHeight()*0.55 - scaleY*0.75*(Math.sin(val*3)));
@@ -53,8 +57,8 @@ public class MountainCarPanel extends JPanel {
         int[] xpnts = new int[np];
         int[] ypnts = new int[np];
         for (int i=0; i<np; i++) {
-            xpnts[i] = getXFor(1.0*i*(worldwidth)/(np-1)+MountainCarEnv.MIN_POS);
-            ypnts[i] = getYFor(1.0*i*(worldwidth)/(np-1)+MountainCarEnv.MIN_POS);
+            xpnts[i] = getXFor(1.0*i*(worldwidth)/(np-1)+ MountainCarEnv.MIN_POS);
+            ypnts[i] = getYFor(1.0*i*(worldwidth)/(np-1)+ MountainCarEnv.MIN_POS);
         }
         g2d.setStroke(new BasicStroke(2));
         g2d.drawPolyline(xpnts,ypnts,np);

@@ -1,7 +1,9 @@
-import java.util.ArrayList;
+package environment;
+
+import ui.MountainCarPanel;
 
 public class MountainCarEnv {
-	
+
 	public static final double MIN_POS = -1.2;
 	public static final double MAX_POS = 0.6;
 	public static final double MAX_SPEED = 0.07;
@@ -11,7 +13,7 @@ public class MountainCarEnv {
 	public static final int REVERSE = -1;
 	private static final double FORCE_INFLUENCE = 0.0005;
 	private static final double GRAVITY = -0.0025;
-	
+
 	private double position;
 	private double velocity;
 	public static final int TEXT = 1;
@@ -48,7 +50,7 @@ public class MountainCarEnv {
 	public double[] undo(int force) {
 		if (!(force== REVERSE || force==NOTHING || force==FORWARD))
 			System.out.println("Please pick only -1 (Reverse), 0 (Nothing) or 1 (Forward) as actions.");
-		velocity -= force* FORCE_INFLUENCE + Math.cos(3*position)*(GRAVITY);
+		velocity -= force * FORCE_INFLUENCE + Math.cos(3*position)*(GRAVITY);
 		velocity = Math.min(MAX_SPEED, Math.max(-MAX_SPEED,velocity));
 		position -= velocity;
 		position = Math.min(MAX_POS, Math.max(MIN_POS,position));
@@ -78,17 +80,17 @@ public class MountainCarEnv {
 		state[3] = velocity;
 		return state;
 	}
-	
+
 	public double getReward() {
 		if (position>GOAL_POS)
 			return 0.0;
 		// Possible negative reward for hitting back wall
-		//else if (position==MIN_POS)
-		//	return -50;
-		else 
+//		else if (position==MIN_POS)
+//			return -50;
+		else
 			return -1.0;
 	}
-	
+
 	public double getPosition() {
 		return position;
 	}
@@ -102,7 +104,7 @@ public class MountainCarEnv {
 		this.velocity = 0.0;
 		return getState();
 	}
-	
+
 	public double[] reset() {
 		this.position = -0.6;
 		this.velocity = 0.0;
