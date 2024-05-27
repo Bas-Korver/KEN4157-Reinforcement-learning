@@ -1,9 +1,3 @@
-package dynamicprogramming;
-
-import environment.MountainCarEnv;
-
-import java.util.Random;
-
 // Utility class
 public class State {
     public static double[][] values;
@@ -27,20 +21,22 @@ public class State {
 
     public static void initializeValues(int rows, int columns) {
         values = new double[rows][columns];
-        Random r = new Random();
-        int min = -99;
+//        Random r = new Random();
+//        int min = -99;
 
         for (int i = 0; i < rows; i++){
             for (int j = 0; j < columns; j++) {
-                double discretizedPos = Discretization.discretize(i, rows, Discretization.CALCULATE_POS);
-                if (discretizedPos > MountainCarEnv.GOAL_POS) {
-                    values[i][j] = 0.0;
-                }
-                else {
-                    int minimalMovesToGoal = (int) Math.round((MountainCarEnv.GOAL_POS - discretizedPos) / MountainCarEnv.MAX_SPEED);
-                    double max = minimalMovesToGoal * -1.0;
-                    values[i][j] = r.nextDouble(max - min) + min;
-                }
+                // Random initialization
+//                double discretizedPos = Discretization.discretize(i, rows, Discretization.CALCULATE_POS);
+//                if (discretizedPos > MountainCarEnv.GOAL_POS) {
+//                    values[i][j] = 0.0;
+//                }
+//                else {
+//                    int minimalMovesToGoal = (int) Math.round((MountainCarEnv.GOAL_POS - discretizedPos) / MountainCarEnv.MAX_SPEED);
+//                    double max = minimalMovesToGoal * -1.0;
+//                    values[i][j] = r.nextDouble(max - min) + min;
+//                }
+                values[i][j] = 0.0;
             }
         }
     }

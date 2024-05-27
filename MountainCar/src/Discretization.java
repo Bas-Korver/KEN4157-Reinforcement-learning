@@ -1,7 +1,3 @@
-package dynamicprogramming;
-
-import environment.MountainCarEnv;
-
 public class Discretization {
     public static final int CALCULATE_POS = 0;
     public static final int CALCULATE_SPEED = 1;
@@ -25,7 +21,7 @@ public class Discretization {
         }
     }
 
-    public static int findDiscretization(double state, int discretizationFactor, int rangeToDiscretize) {
+    public static int findIndices(double state, int discretizationFactor, int rangeToDiscretize) {
         double discretizeStep;
         if (rangeToDiscretize == CALCULATE_POS) {
             discretizeStep = (POS_RANGE[1] - POS_RANGE[0]) / (discretizationFactor - 1);

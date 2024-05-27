@@ -1,7 +1,3 @@
-import environment.MountainCarEnv;
-import ui.HeatMapWindow;
-import dynamicprogramming.Discretization;
-
 import javax.swing.*;
 import java.util.Arrays;
 
@@ -12,7 +8,7 @@ public class DemoAgent {
 
     public static void main(String[] args) {
         game = new MountainCarEnv(MountainCarEnv.RENDER);
-        //Running 10 episodes
+        //Running 100 episodes
         for (int i=0; i<10; i++) {
             gamestate = game.randomReset();
             System.out.println("The initial gamestate is: " + Arrays.toString(gamestate));
@@ -44,4 +40,5 @@ public class DemoAgent {
         }
         catch (Exception e) {System.out.println(e.getMessage());}
     }
+
 }
