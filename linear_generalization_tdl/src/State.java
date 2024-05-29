@@ -1,9 +1,7 @@
-import java.util.Random;
-
 // Utility class
 public class State {
-    private static double[][] values;
-    private static int[][] policy;
+    public static double[][] values;
+    public static int[][] policy;
 
     public static int getPolicy(int row, int column) {
         return policy[row][column];
@@ -21,14 +19,10 @@ public class State {
         values[row][column] = value;
     }
 
-    public static double[][] getValues() {
-        return values;
-    }
-
     public static void initializeValues(int rows, int columns) {
         values = new double[rows][columns];
-        Random r = new Random();
-        int min = -99;
+//        Random r = new Random();
+//        int min = -99;
 
         for (int i = 0; i < rows; i++){
             for (int j = 0; j < columns; j++) {

@@ -23,7 +23,6 @@ public class HeatMapWindow extends JFrame{
         panels[0].setXAxisTitle("Position");
         panels[0].setXCoordinateBounds(-1.2, 0.6);
         panels[0].setDrawXTicks(true);
-        panels[0].setDrawLegend(true);
 
         this.setLayout(new GridLayout(0,1));
         this.getContentPane().add(panels[0]);

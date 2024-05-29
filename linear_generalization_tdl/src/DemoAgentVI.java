@@ -6,7 +6,7 @@ public class DemoAgentVI {
     private static MountainCarEnv game;
     private static double[] gamestate;
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         ValueIteration.run();
         game = new MountainCarEnv(MountainCarEnv.RENDER);
 
@@ -33,13 +33,18 @@ public class DemoAgentVI {
             }
             System.out.println();
         }
-//        try {
-//            HeatMapWindow hm = new HeatMapWindow(State.getValues());
-//            hm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//            hm.setSize(600,600);
-//            hm.setVisible(true);
-//            hm.update(State.getValues());
-//        }
-//        catch (Exception e) {System.out.println(e.getMessage());}
+        try {
+            double[][] valuesToShow = new double[ValueIteration.POS_DISCRETIZATION_FACTOR][ValueIteration.SPEED_DISCRETIZATION_FACTOR];
+            for (int i=0; i<ValueIteration.POS_DISCRETIZATION_FACTOR; i++)
+                for (int j=0; j<ValueIteration.SPEED_DISCRETIZATION_FACTOR; j++)
+                    valuesToShow[i][j] = State.getValue(i, j);
+
+            HeatMapWindow hm = new HeatMapWindow(valuesToShow);
+            hm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            hm.setSize(600,600);
+            hm.setVisible(true);
+            hm.update(valuesToShow);
+        }
+        catch (Exception e) {System.out.println(e.getMessage());}
     }
 }
