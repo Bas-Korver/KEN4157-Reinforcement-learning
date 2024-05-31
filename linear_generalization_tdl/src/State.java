@@ -1,7 +1,9 @@
+import java.util.Random;
+
 // Utility class
 public class State {
-    public static double[][] values;
-    public static int[][] policy;
+    private static double[][] values;
+    private static int[][] policy;
 
     public static int getPolicy(int row, int column) {
         return policy[row][column];
@@ -17,6 +19,10 @@ public class State {
 
     public static void setValue(int row, int column, double value) {
         values[row][column] = value;
+    }
+
+    public static double[][] getValues() {
+        return values;
     }
 
     public static void initializeValues(int rows, int columns) {
