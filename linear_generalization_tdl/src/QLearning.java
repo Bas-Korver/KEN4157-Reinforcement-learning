@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.util.Arrays;
 import java.util.Random;
 
-public class SarsaLambda {
+public class QLearning {
     public static final int POS_TILES = 10;
     public static final int SPEED_TILES = 10;
     public static final int TILING_AMOUNT = 7;
@@ -60,17 +60,14 @@ public class SarsaLambda {
     public static double[] run() throws Exception {
         MountainCarEnv game = new MountainCarEnv(0);
         double[] weights = new double[ACTIONS_SET.length * TILING_AMOUNT * POS_TILES * SPEED_TILES + 1];
-        double[] eligibility = new double[weights.length];
 
         for (int i = 0; i < MAX_EPISODES; i++) {
-            Arrays.fill(eligibility, 0);
             double[] state = game.randomReset();
-            int action = epsilonGreedy(state, weights);
             boolean terminal = false;
             int iterations = 0;
             while (!terminal && iterations < 1000) {
+                int action = epsilonGreedy(state, weights);
                 double[] nextState = game.step(ACTIONS_SET[action]);
-                int nextAction = epsilonGreedy(nextState, weights);
                 terminal = nextState[0] > 0;
 
                 int[] tiles = TileCoding.tileCoding(state[2], state[3], TILING_AMOUNT, POS_TILES, SPEED_TILES);
@@ -79,20 +76,17 @@ public class SarsaLambda {
                 int[][] nextFeatures = createFeatures(nextTiles);
 
                 double currentValue = calculateValue(weights, features[action]);
-                double nextValue = terminal ? 0 : calculateValue(weights, nextFeatures[nextAction]);
+                double nextValue = terminal ? 0 : calculateValue(weights, nextFeatures[action]);
                 double delta = nextState[1] + GAMMA * nextValue - currentValue;
 
                 for (int j = 0; j < weights.length; j++) {
-                    eligibility[j] *= GAMMA * LAMBDA;
                     if (features[action][j] != 0) {
-                        eligibility[j] += features[action][j];
+                        weights[j] += ALPHA * delta;
                     }
-                    weights[j] += ALPHA * delta * eligibility[j];
                 }
 
                 // Prepare for next step
                 state = nextState;
-                action = nextAction;
                 iterations++;
             }
             System.out.println("Episode " + i + " completed.");

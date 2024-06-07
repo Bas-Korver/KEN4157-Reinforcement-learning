@@ -6,7 +6,7 @@ public class DemoAgentLG {
     private static double[] gamestate;
 
     public static void main(String[] args) throws Exception {
-        double[] weights = SarsaLambda.run();
+        double[] weights = QLearning.run();
         game = new MountainCarEnv(MountainCarEnv.RENDER);
 
         //Running 5 episodes
