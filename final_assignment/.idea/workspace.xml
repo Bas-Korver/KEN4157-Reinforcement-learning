@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f60d9d3-ab95-4e80-b52f-a381ebb2d101" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KEN4157-Reinforcement-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../KEN4157-Reinforcement-learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/final_assignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/final_assignment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cleanrl/final_assignment/cleanrl/cleanrl/ddpg_continuous_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/cleanrl/final_assignment/cleanrl/cleanrl/ddpg_continuous_action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cleanrl/final_assignment/cleanrl/cleanrl/ppo_continuous_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/cleanrl/final_assignment/cleanrl/cleanrl/ppo_continuous_action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cleanrl/final_assignment/cleanrl/run_commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/cleanrl/final_assignment/cleanrl/run_commands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linear_generalization_tdl/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../linear_generalization_tdl/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linear_generalization_tdl/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linear_generalization_tdl/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linear_generalization_tdl/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linear_generalization_tdl/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linear_generalization_tdl/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linear_generalization_tdl/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linear_generalization_tdl/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linear_generalization_tdl/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linear_generalization_tdl/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../linear_generalization_tdl/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linear_generalization_tdl/linear_generalization_tdl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../linear_generalization_tdl/linear_generalization_tdl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linear_generalization_tdl/src/DemoAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linear_generalization_tdl/src/DemoAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linear_generalization_tdl/src/DemoAgentLG.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linear_generalization_tdl/src/DemoAgentLG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linear_generalization_tdl/src/Discretization.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linear_generalization_tdl/src/Discretization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linear_generalization_tdl/src/Gradient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linear_generalization_tdl/src/Gradient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linear_generalization_tdl/src/HeatMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linear_generalization_tdl/src/HeatMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linear_generalization_tdl/src/HeatMapWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linear_generalization_tdl/src/HeatMapWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linear_generalization_tdl/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../linear_generalization_tdl/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linear_generalization_tdl/src/MountainCarEnv.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linear_generalization_tdl/src/MountainCarEnv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linear_generalization_tdl/src/MountainCarPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linear_generalization_tdl/src/MountainCarPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linear_generalization_tdl/src/QLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linear_generalization_tdl/src/QLearning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linear_generalization_tdl/src/SarsaLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linear_generalization_tdl/src/SarsaLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linear_generalization_tdl/src/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linear_generalization_tdl/src/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linear_generalization_tdl/src/TileCoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/../linear_generalization_tdl/src/TileCoding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tablebased_op_tdl/KEN4157_Reinforcement_Learning_Cliff_Walking.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../tablebased_op_tdl/KEN4157_Reinforcement_Learning_Cliff_Walking.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tablebased_qlearning/KEN4157_Reinforcement_Learning_Blackjack_Gymnasium.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../tablebased_qlearning/KEN4157_Reinforcement_Learning_Blackjack_Gymnasium.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../value_policy_iteration/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../value_policy_iteration/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../value_policy_iteration/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../value_policy_iteration/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../value_policy_iteration/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../value_policy_iteration/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../value_policy_iteration/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../value_policy_iteration/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../value_policy_iteration/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../value_policy_iteration/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../value_policy_iteration/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../value_policy_iteration/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../value_policy_iteration/src/DemoAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../value_policy_iteration/src/DemoAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../value_policy_iteration/src/DemoAgentVI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../value_policy_iteration/src/DemoAgentVI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../value_policy_iteration/src/Discretization.java" beforeDir="false" afterPath="$PROJECT_DIR$/../value_policy_iteration/src/Discretization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../value_policy_iteration/src/Gradient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../value_policy_iteration/src/Gradient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../value_policy_iteration/src/HeatMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../value_policy_iteration/src/HeatMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../value_policy_iteration/src/HeatMapWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../value_policy_iteration/src/HeatMapWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../value_policy_iteration/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../value_policy_iteration/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../value_policy_iteration/src/MountainCarEnv.java" beforeDir="false" afterPath="$PROJECT_DIR$/../value_policy_iteration/src/MountainCarEnv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../value_policy_iteration/src/MountainCarPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../value_policy_iteration/src/MountainCarPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../value_policy_iteration/src/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/../value_policy_iteration/src/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../value_policy_iteration/src/ValueIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../value_policy_iteration/src/ValueIteration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../value_policy_iteration/value_policy_iteration.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../value_policy_iteration/value_policy_iteration.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/cleanrl" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2imJ9zmg0tR4TpPct0OjT65lge7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.ppo_continuous_action.executor": "Run",
+    "Python.run commands.executor": "Run",
+    "Python.run_commands (1).executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "<unknown>",
+    "last_opened_file_path": "C:/Users/Bas_K/Downloads/Nieuwe map",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.black.configuration.BlackFormatterConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.run_commands (1)">
+    <configuration name="ppo_continuous_action" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="final_assignment" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cleanrl/cleanrl" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cleanrl/cleanrl/ppo_continuous_action.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_commands (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="final_assignment" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cleanrl" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cleanrl/run_commands.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_commands" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="final_assignment" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cleanrl" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="\\wsl.localhost\Debian\home\bas\KEN4157-Reinforcement-learning\final_assignment\cleanrl\run_commands.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_commands (1)" />
+        <item itemvalue="Python.run_commands" />
+        <item itemvalue="Python.ppo_continuous_action" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17890.14" />
+        <option value="bundled-python-sdk-5b207ade9991-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17890.14" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f60d9d3-ab95-4e80-b52f-a381ebb2d101" name="Changes" comment="" />
+      <created>1720089672338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720089672338</updated>
+      <workItem from="1720089673814" duration="43260000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/final_assignment$ppo_continuous_action.coverage" NAME="ppo_continuous_action Coverage Results" MODIFIED="1720114895480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cleanrl/cleanrl" />
+    <SUITE FILE_PATH="coverage/final_assignment$run_commands.coverage" NAME="run commands Coverage Results" MODIFIED="1720134282161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cleanrl" />
+    <SUITE FILE_PATH="coverage/final_assignment$run_commands__1_.coverage" NAME="run_commands (1) Coverage Results" MODIFIED="1720146815673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cleanrl" />
+  </component>
+</project>
